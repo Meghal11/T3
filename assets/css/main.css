@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+}
+
+#mainbody {
+    background: url("../images/maxresdefault.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.container1 {
+    margin: 4vw 25vw 0;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Ultra', serif;
+    color: white;
+    font-size: 4rem;
+}
+
+.instr {
+    color: white;
+    font-family: 'Mali', cursive;
+}
+
+button {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 2% 0%;
+    background-color: white;
+    font-family: 'Rancho', cursive;
+    color: black;
+    font-weight: bolder;
+}
+
+.butchoose {
+    margin-top: 2%;
+}
+
+.butchoose img {
+    width: 50%;
+}
+
+.player {
+
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    height: 45%;
+    width: 45%;
+    margin: 3vw auto;
+    flex-wrap: wrap;
+}
+
+.s {
+    font-family: 'Limelight', cursive;
+    color: white;
+}
+
+.p {
+    font-size: 2.9rem;
+    animation: anim1 3s infinite linear;
+}
+
+.last {
+    margin: 0 auto;
+    width: 30%;
+    height: 3rem;
+    font-size: 17px;
+}
+
+.highlight {
+    border: 5px solid goldenrod;
+}
+
+@keyframes anim1 {
+    0% {
+        transform: scale(0.8, 0.8);
+    }
+
+    50% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(0.8, 0.8);
+    }
+}
+
+@media(max-width:1400px) {
+    .row1 {
+        width: 50%;
+    }
+
+    .heading {
+        font-size: 3.8rem;
+    }
+}
+
+@media(max-width:1200px) {
+    button {
+        height: 80px;
+        width: 80px;
+    }
+
+    .s {
+        font-size: 25px;
+    }
+
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .p {
+        font-size: 2.5rem;
+    }
+
+    .last {
+        height: 3rem;
+    }
+}
+
+@media(max-width:992px) {
+    .container1 {
+        margin: 7vw 15vw 0;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .row1 {
+        width: 50%;
+    }
+
+    .s {
+        font-size: 22px;
+    }
+
+    .p {
+        font-size: 2rem;
+    }
+
+    .last {
+        height: 2.5rem;
+        font-size: 15px;
+        width: 35%;
+    }
+}
+
+@media(max-width:768px) {
+    .container1 {
+        margin: 7vw 15vw 0;
+    }
+
+    .row1 {
+        margin: 5vw auto;
+        width: 55%;
+    }
+
+    .butchoose {
+        margin-top: 3%;
+    }
+
+    .p {
+        font-size: 2rem;
+    }
+
+    .last {
+        width: 40%;
+    }
+}
+
+@media(max-width:640px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .instr {
+        font-size: 15px;
+    }
+
+    .container1 {
+        margin: 9vw 16vw 0;
+    }
+
+    .row1 {
+        width: 73.5%;
+    }
+
+    .butchoose img {
+        width: 60%;
+    }
+
+    .player {
+        width: 60%;
+        font-size: 15px;
+        height: 45px;
+    }
+
+    .s {
+        font-size: 22px;
+    }
+
+    .p {
+        font-size: 1.9rem;
+    }
+
+    .last {
+        height: 2.5rem;
+        font-size: 14px;
+        width: 45%;
+    }
+}
+
+@media(max-width:480px) {
+    button {
+        height: 60px;
+        width: 60px;
+    }
+
+    .heading {
+        font-size: 2.2rem;
+    }
+
+    .s {
+        font-size: 18px;
+    }
+
+    .butchoose {
+        margin-top: 5%;
+    }
+
+    .player {
+        width: 70%;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .container1 {
+        margin: 20vw 11vw 0;
+    }
+
+    .row1 {
+        width: 64%;
+    }
+
+    .p {
+        font-size: 1.5rem;
+    }
+
+    .last {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:360px) {
+    .instr {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .butchoose img {
+        width: 70%;
+    }
+
+    .s {
+        font-size: 16px;
+    }
+
+    .container1 {
+        margin: 25vw 11vw 0;
+    }
+
+    .row1 {
+        width: 73%;
+    }
+
+    .last {
+        width: 50%;
+    }
+}
